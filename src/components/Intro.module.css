@@ -206,6 +206,13 @@
    
 }
 
+@media (min-width: 0px) and (max-width: 587px) {
+    .content h1 {
+        font-size: 6.9rem;
+        line-height: 6.9rem;
+    }
+}
+
 @media (min-width: 587px) and (max-width: 992px) {
     .content h1 {
         font-size: 8.2rem;

@@ -203,6 +203,7 @@
     }
 }
 
+
 @media (max-width: 576px) {
 
     .img {
@@ -235,5 +236,4 @@
         margin-left: 0;
         margin-top: 6.8rem;
     }
-
 }

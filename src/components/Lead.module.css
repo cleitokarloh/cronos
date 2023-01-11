@@ -1,6 +1,6 @@
 .section {
     margin-top: 14.1rem;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,9 +109,20 @@
  }
 
  @media (min-width: 0px) and (max-width: 587px) {
+
+    .section  {
+        padding: 2.9rem 3rem;
+        overflow: hidden;
+    }
     .container {
         padding: 14rem 0rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+    }
+
+    .container form input {
+        width: 43rem;
+    }
+
+    .container form button {
+        padding: 2.65rem 2rem;
     }
  }

@@ -109,4 +109,8 @@
         align-items: center;
         justify-content: center;
     }
+    
+    .callToAction a {
+        padding: 3rem 3.8rem;
+    }
 }
