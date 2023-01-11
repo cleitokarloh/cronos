@@ -1,0 +1,117 @@
+.section {
+    margin-top: 14.1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    flex-direction: row;
+
+    padding: 14rem 9rem;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: none;
+    border-right: none;    
+}
+
+.container div h3 {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.5rem;
+
+    letter-spacing: 0.01em;
+}
+
+.container div p {
+    margin-top: 1.2rem;
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.01em;
+}
+
+ .container div p img {
+    margin: 0 0.2rem 0.5rem;
+ }
+
+ .container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container form input {
+    padding: 2.8rem 3.2rem;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+
+    width: 48rem;
+    border: 0;
+ }
+
+ .container from input::placeholder {
+    color: rgba(255, 255, 255, 0.21);
+ }
+
+ .container form button {
+    padding: 2.9rem 3rem;
+    margin-left: 0.5rem;
+
+    background: var(--main);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: var(--background);
+    border: 0;
+    transition: all 0.2s;
+ }
+
+ .container form button:hover {
+    background: linear-gradient(94.78deg, #FFFFFF 1.7%, rgba(255, 255, 255, 0.35) 101.26%);
+ }
+
+ @media (min-width: 1200px) and (max-width: 1400px) {
+    .container form input {
+        width: 33rem;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        padding: 14rem 1rem;
+    }
+    
+  
+    .container form button {
+        padding: 2.6rem 1.5rem;
+    }
+ }
+
+ @media (min-width: 0px) and (max-width: 1199px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container form {
+        margin-top: 5rem;
+    }
+ }
+
+ @media (min-width: 0px) and (max-width: 587px) {
+    .container {
+        padding: 14rem 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+ }

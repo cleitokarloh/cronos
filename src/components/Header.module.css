@@ -1,0 +1,176 @@
+.header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7.0rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: 500;
+    font-size: 2.615rem;
+    line-height: 3.4rem;
+    text-transform: uppercase;
+}
+
+.nav {
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    gap: 8.2rem;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.6rem;
+
+    transition: all 0.15s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.45);
+}
+
+
+.getCronos {
+    gap: 1.6rem;
+    display: flex;
+    align-items: center;
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+    transition: all 0.15s;
+    border: 2px solid transparent;
+    padding: 2rem;
+}
+
+.getCronos:hover {
+    border: 2px solid rgba(255, 255, 255, 0.45);
+}
+
+.menuToggle {
+    display: none;
+}
+
+
+@media (max-width: 540px) {
+
+    .header nav {
+        display: none;
+    }
+
+    .header .getCronos {
+        display: none;
+    }
+    
+    .header {
+        padding-top: 2rem;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: var(--white);
+        height: 0.5rem;
+        width: 100%;
+        margin: 0.6rem auto;
+        transition-duration: 0.3s;
+    }
+
+    .menuToggle {
+        display: block;
+        width: 4rem;
+        height: 3rem;
+    }
+
+    /* fullscreen */
+    .on {
+        position: absolute;
+        top:0;
+        left:0;
+        
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #7D53F3;
+        
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .on .container {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .on .brand {
+        visibility: hidden;
+    }
+
+    .on .menuToggle {
+        position: absolute;
+        right: 1.6rem;
+        top: 1.6rem;
+    }
+
+    .on .menuToggle .one {
+        transform: rotate(45deg) translate(0.6rem, 0.7rem);
+    }
+
+    .on .menuToggle .two {
+        opacity: 0;
+    }
+
+    .on .menuToggle .three {
+        transform: rotate(-45deg) translate(0.9rem, -1.1rem);
+    }
+
+    .on nav, .on .getCronos {
+        display: block;
+    }
+
+    .on .getCronos {
+        display: inline-flex;
+    }
+
+    .on nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    .on nav ul a {
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+    }
+
+    .on nav ul li + li {
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 768px) { 
+
+    .nav {
+        gap: 4rem;
+    }
+
+    .getCronos {
+        gap: 0.6rem;
+    }
+}
