@@ -226,6 +226,7 @@
 
     .wrapperLeft h2 {
         font-size: 8rem;
+        line-height: 8.7rem;
     }
 
     .wrapperRight div + div {
