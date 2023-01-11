@@ -10,7 +10,6 @@ import styles from './Header.module.css';
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleOpenTootleMenu = useCallback(() => {
-        console.log('OK');
         setMenuOpen(state => !state)
     }, []);
     return (

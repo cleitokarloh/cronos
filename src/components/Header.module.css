@@ -93,9 +93,8 @@
         height: 3rem;
     }
 
-    /* fullscreen */
     .on {
-        position: absolute;
+        position: fixed;
         top:0;
         left:0;
         
@@ -109,12 +108,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
+        
     }
 
     .on .container {
         flex-direction: column;
-        justify-content: space-around;
-        height: 100%;
     }
 
     .on .brand {
@@ -141,6 +140,7 @@
 
     .on nav, .on .getCronos {
         display: block;
+        margin-top: 20rem;
     }
 
     .on .getCronos {
