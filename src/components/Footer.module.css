@@ -11,6 +11,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     grid-gap: 5rem 10rem;
+
+    width: 100%;
 }
 
 .cloud h5 {

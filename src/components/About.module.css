@@ -220,6 +220,10 @@
         align-items: center;
     }
 
+    .wrapperLeft h2 {
+        font-size: 8rem;
+    }
+
     .wrapperRight div + div {
         margin-top: 6rem;
         margin-left: 0;

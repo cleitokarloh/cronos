@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 import Image from 'next/image';
 
@@ -18,7 +19,7 @@ export default function Intro()
                         <p>Cronos is an ever expanding ecosystem of connected <br /> apps and services, built for a decentralized future.</p>
                     </div>
                 </div>
-                <Image src={img2} className={styles.image2}  alt=''/>
+                <img src={img2.src}  className={styles.image2}  alt=''/> 
             </div>
     );
 }

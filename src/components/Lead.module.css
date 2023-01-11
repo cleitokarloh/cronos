@@ -47,6 +47,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
  }
 
  .container form input {
@@ -119,7 +121,7 @@
     }
 
     .container form input {
-        width: 43rem;
+        width: 82%;
     }
 
     .container form button {

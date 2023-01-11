@@ -19,7 +19,7 @@ export default function Home() {
       <main>
         <Header />
         <Intro />
-         <About />
+        <About />
         <CronsHub />
         <AboutCronsHub />
         <Lead />

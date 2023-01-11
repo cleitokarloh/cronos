@@ -29,8 +29,9 @@
     margin-top: 1.6rem;
     font-size: 2.7rem;
     line-height: 3.5rem;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.01em;    
 }
+
 
 .callToAction {
     margin-top: 12.5rem;
@@ -95,11 +96,13 @@
         margin-top: 8rem;
     }
 
-    .list {
-        grid-template-columns: repeat(auto-fit, minmax(43rem, 1fr));
-        grid-gap: 11.8rem 0.8rem;
-        padding: 0 1.5rem;
+    .container {
+        width: 100%;
+    }
 
+    .list {
+        grid-gap: 11.8rem 0;
+        padding: 0;
         text-align: center;
     }
 
