@@ -206,6 +206,10 @@
 
 @media (max-width: 576px) {
 
+    .section {
+        margin-top: 22rem;
+    }
+
     .img {
         right: -10%;
         max-width: 200px;
